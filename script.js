@@ -22,6 +22,7 @@ document.querySelector(".check").addEventListener("click", function () {
     } else {
       document.querySelector(".message").textContent =
         "You have lost your game";
+
       document.querySelector(".score").textContent = 0;
     }
   } else if (guess < secretNumber) {
